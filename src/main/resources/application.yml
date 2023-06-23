@@ -1,0 +1,12 @@
+server:
+  port: 3000
+spring:
+  datasource:
+    url: jdbc:mysql://sh-cynosdbmysql-grp-rew5tl8a.sql.tencentcdb.com:26773/ph
+    username: ecnu
+    password: v2NLx7NGJbv-XFR
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
